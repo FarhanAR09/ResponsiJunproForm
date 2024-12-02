@@ -66,19 +66,19 @@
             tableLayoutPanel1.Location = new Point(12, 12);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 3;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 78.98089F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 21.0191078F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 222F));
-            tableLayoutPanel1.Size = new Size(776, 426);
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 76.74419F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 23.2558136F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 331F));
+            tableLayoutPanel1.Size = new Size(776, 504);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Dock = DockStyle.Fill;
-            dataGridView1.Location = new Point(3, 206);
+            dataGridView1.Location = new Point(3, 175);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(770, 217);
+            dataGridView1.Size = new Size(770, 326);
             dataGridView1.TabIndex = 0;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick_2;
             // 
@@ -91,11 +91,11 @@
             tableLayoutPanel2.Controls.Add(button1, 0, 0);
             tableLayoutPanel2.Controls.Add(button2, 1, 0);
             tableLayoutPanel2.Controls.Add(button3, 2, 0);
-            tableLayoutPanel2.Location = new Point(3, 164);
+            tableLayoutPanel2.Location = new Point(3, 135);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 1;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel2.Size = new Size(770, 27);
+            tableLayoutPanel2.Size = new Size(770, 30);
             tableLayoutPanel2.TabIndex = 1;
             // 
             // button1
@@ -112,7 +112,7 @@
             // 
             button2.Location = new Point(257, 3);
             button2.Name = "button2";
-            button2.Size = new Size(248, 21);
+            button2.Size = new Size(248, 24);
             button2.TabIndex = 1;
             button2.Text = "EDIT";
             button2.UseVisualStyleBackColor = true;
@@ -137,7 +137,7 @@
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 1;
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel3.Size = new Size(770, 155);
+            tableLayoutPanel3.Size = new Size(770, 126);
             tableLayoutPanel3.TabIndex = 2;
             // 
             // tableLayoutPanel4
@@ -160,7 +160,7 @@
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Absolute, 28F));
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Absolute, 29F));
-            tableLayoutPanel4.Size = new Size(379, 113);
+            tableLayoutPanel4.Size = new Size(379, 120);
             tableLayoutPanel4.TabIndex = 0;
             tableLayoutPanel4.Paint += tableLayoutPanel4_Paint;
             // 
@@ -168,9 +168,10 @@
             // 
             pictureBox1.Location = new Point(3, 3);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(100, 22);
+            pictureBox1.Size = new Size(29, 25);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // label1
             // 
@@ -185,7 +186,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(3, 28);
+            label2.Location = new Point(3, 31);
             label2.Name = "label2";
             label2.Size = new Size(58, 15);
             label2.TabIndex = 2;
@@ -194,7 +195,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(3, 56);
+            label3.Location = new Point(3, 62);
             label3.Name = "label3";
             label3.Size = new Size(72, 15);
             label3.TabIndex = 3;
@@ -203,7 +204,7 @@
             // comboBox2
             // 
             comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(192, 59);
+            comboBox2.Location = new Point(192, 65);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(184, 23);
             comboBox2.TabIndex = 5;
@@ -211,7 +212,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(192, 31);
+            textBox1.Location = new Point(192, 34);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(184, 23);
             textBox1.TabIndex = 6;
@@ -229,7 +230,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(3, 84);
+            label4.Location = new Point(3, 90);
             label4.Name = "label4";
             label4.Size = new Size(47, 15);
             label4.TabIndex = 7;
@@ -238,7 +239,7 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(192, 87);
+            comboBox1.Location = new Point(192, 93);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(184, 23);
             comboBox1.TabIndex = 8;
@@ -247,7 +248,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 528);
             Controls.Add(tableLayoutPanel1);
             Name = "Form1";
             Text = "Form1";
